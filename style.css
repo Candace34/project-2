@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid a {
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  font-size: 2rem;
+}
+.custom-navbar-color {
+  background-color: #2b211e !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+}
+body {
+  background-color: #835840;
+  height: 90%;
+}
+#header {
+  height: 80vh;
+  background-image: url("./images/background.png");
+  background-size: cover;
+}
+#header p {
+  font-size: 8rem;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  background-color: #2b211e;
+}
+
+#header img {
+  width: 30vw;
+}
+#header .container {
+  height: 80%;
+}
+.p1 {
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  font-size: 2rem;
+  background-color: #2b211e;
+}
+
+.border-success {
+  border-color: #2b211e;
+}
+.review {
+  height: 80vh;
+  background-image: url("./images/background.png");
+  background-size: cover;
+}
+.p-2 {
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  font-size: 2rem;
+  background-color: #2b211e;
+  background-size: 50%;
+}
+.clearfix img {
+  width: 40vh;
+}
+#header2 p {
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  font-size: 9rem;
+  background-color: #2b211e;
+  background-size: 20%;
+}
+#header2 {
+  height: 80vh;
+  background-image: url("./images/background.png");
+  background-size: cover;
+}
+#header2 .container {
+  height: 80vh;
+}
+.menu-header-height {
+  height: 100%;
+}
+.p-6 {
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  font-size: 3rem;
+}
+.p-5 {
+  font-family: "Alex Brush", cursive;
+  color: #e41e25;
+  font-size: 5rem;
+  background-color: #2b211e;
+  background-size: 20%;
+}
+.fancy-text {
+  font-family: "Alice", cursive;
+  color: #2b211e;
+  font-size: 2rem;
+}
+.custom-color {
+  border-style: solid;
+  border-color: #2b211e;
+  border-width: 6px;
+}
+@media screen and (max-width: 600px) {
+  .menu-header-height {
+    height: 50%;
+  }
+}
